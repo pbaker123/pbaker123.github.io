@@ -1,0 +1,63 @@
+/* Background Colors */
+footer, .portfolioDivLabel {
+	background-color: #A98f6A;
+}
+
+button {
+	background-color: unset;
+}
+
+input[type=submit] {
+	background-color: #BFA395;
+}
+
+.currentpage, .bg-darkolivegreen {
+	background-color: #725342 !important;
+}
+
+
+.main-item-content, .main-item-connect, .header-grid-container, .bg-snow {
+	background-color: #FDFCFA;
+}
+
+.dropdown-content {
+    background-color: #E3E3E1;
+}
+
+.link:hover, .link:focus, .link:active, .splitlinkprimary:hover, .splitlinkprimary:focus, .splitlinkprimary:active, .splitlinksecondary:hover {
+	background-color: #a98f6a;
+}
+
+.splitlinksecondary:focus, .splitlinksecondary:active, input[type=submit]:hover, input[type=submit]:focus, input[type=submit]:active {
+	background-color: #725342;
+}
+
+
+/* Text Colors */
+body, p {
+	color: #233333;
+}
+
+h2, h3, h4, .text-darkolivegreen {
+	color: #725342;
+}
+
+.link, .text-maincolor, .splitlinksecondary {
+	color: #4E7271;
+}
+
+.text-snow, .portfolioDivLabel {
+	color: #FDFCFA;
+}
+
+.text-rosybrown {
+	color: #BFA395;
+}
+
+.currentpage, .link:hover, .link:focus, .link:active, input[type=submit], input[type=submit]:hover, input[type=submit]:focus, input[type=submit]:active {
+	color: #FDFCFA !important;
+}
+
+.splitlinkprimary:hover, .splitlinkprimary:focus, .splitlinkprimary:active, .splitlinksecondary:hover, .splitlinksecondary:focus, .splitlinksecondary:active {
+	color: #FDFCFA;
+}
