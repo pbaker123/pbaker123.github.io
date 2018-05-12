@@ -76,6 +76,10 @@
 	background-image: url('../images/hw5.png');
 }
 
+#projectLink4Small, #projectLink4Medium, #projectLink4Large {
+	background-image: url('../images/hw6.png');
+}
+
 /* Small sized */
 #projectLink1Small, #projectLink2Small, #projectLink3Small, #projectLink4Small, #projectLink5Small {
 	width: 175px;
@@ -84,10 +88,6 @@
 	position: relative;
 	background-size: 175px 117px;
 	border-radius: 5px;
-}
-
-#projectLink4Small {
-	background-image: url('../images/projectPlaceHolderSmall.png');
 }
 
 #projectLink5Small {
@@ -108,10 +108,6 @@
 	border-radius: 5px;
 }
 
-#projectLink4Medium {
-	background-image: url('../images/projectPlaceHolderMedium.png');
-}
-
 #projectLink5Medium {
 	background-image: url('../images/projectPlaceHolderMedium.png');
 }
@@ -130,9 +126,6 @@
 	border-radius: 5px;
 }
 
-#projectLink4Large {
-	background-image: url('../images/projectPlaceHolderLarge.png');
-}
 
 #projectLink5Large {
 	background-image: url('../images/projectPlaceHolderLarge.png');
