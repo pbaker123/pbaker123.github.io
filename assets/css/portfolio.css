@@ -80,6 +80,10 @@
 	background-image: url('../images/hw6.png');
 }
 
+#projectLink5Small, #projectLink5Medium, #projectLink5Large {
+	background-image: url('../images/hw7.png');
+}
+
 /* Small sized */
 #projectLink1Small, #projectLink2Small, #projectLink3Small, #projectLink4Small, #projectLink5Small {
 	width: 175px;
@@ -90,9 +94,6 @@
 	border-radius: 5px;
 }
 
-#projectLink5Small {
-	background-image: url('../images/projectPlaceHolderSmall.png');
-}
 
 #projectLink1Small:hover, #projectLink1Small:focus, #projectLink2Small:hover, #projectLink2Small:focus, #projectLink3Small:hover, #projectLink3Small:focus, #projectLink4Small:hover, #projectLink4Small:focus, #projectLink5Small:hover, #projectLink5Small:focus  {
 	border: 4px solid #393F44;
@@ -108,10 +109,6 @@
 	border-radius: 5px;
 }
 
-#projectLink5Medium {
-	background-image: url('../images/projectPlaceHolderMedium.png');
-}
-
 #projectLink1Medium:hover, #projectLink1Medium:focus, #projectLink2Medium:hover, #projectLink2Medium:focus, #projectLink3Medium:hover, #projectLink3Medium:focus, #projectLink4Medium:hover, #projectLink4Medium:focus, #projectLink5Medium:hover, #projectLink5Medium:focus {
 	border: 4px solid #393F44;
 }
@@ -124,11 +121,6 @@
 	position: relative;
 	background-size: 585px 391px;
 	border-radius: 5px;
-}
-
-
-#projectLink5Large {
-	background-image: url('../images/projectPlaceHolderLarge.png');
 }
 
 #projectLink1Large:hover, #projectLink1Large:focus, #projectLink2Large:hover, #projectLink2Large:focus, #projectLink3Large:hover, #projectLink3Large:focus, #projectLink4Large:hover, #projectLink4Large:focus, #projectLink5Large:hover, #projectLink5Large:focus {
