@@ -84,8 +84,14 @@
 	background-image: url('../images/hw7.png');
 }
 
+#projectLink6Small, #projectLink6Medium, #projectLink6Large {
+	background-image: url('../images/gp1.png');
+}
+
+
+
 /* Small sized */
-#projectLink1Small, #projectLink2Small, #projectLink3Small, #projectLink4Small, #projectLink5Small {
+#projectLink1Small, #projectLink2Small, #projectLink3Small, #projectLink4Small, #projectLink5Small, #projectLink6small {
 	width: 175px;
 	height: 117px;
 	margin: 10px;
@@ -95,12 +101,12 @@
 }
 
 
-#projectLink1Small:hover, #projectLink1Small:focus, #projectLink2Small:hover, #projectLink2Small:focus, #projectLink3Small:hover, #projectLink3Small:focus, #projectLink4Small:hover, #projectLink4Small:focus, #projectLink5Small:hover, #projectLink5Small:focus  {
+#projectLink1Small:hover, #projectLink1Small:focus, #projectLink2Small:hover, #projectLink2Small:focus, #projectLink3Small:hover, #projectLink3Small:focus, #projectLink4Small:hover, #projectLink4Small:focus, #projectLink5Small:hover, #projectLink5Small:focus, #projectLink6Small:hover, #projectLink6Small:focus  {
 	border: 4px solid #393F44;
 }
 
 /* Medium sized */
-#projectLink1Medium, #projectLink2Medium, #projectLink3Medium, #projectLink4Medium, #projectLink5Medium {
+#projectLink1Medium, #projectLink2Medium, #projectLink3Medium, #projectLink4Medium, #projectLink5Medium, #projectLink6Medium {
 	width: 260px;
 	height: 174px;
 	margin: 10px;
@@ -109,12 +115,12 @@
 	border-radius: 5px;
 }
 
-#projectLink1Medium:hover, #projectLink1Medium:focus, #projectLink2Medium:hover, #projectLink2Medium:focus, #projectLink3Medium:hover, #projectLink3Medium:focus, #projectLink4Medium:hover, #projectLink4Medium:focus, #projectLink5Medium:hover, #projectLink5Medium:focus {
+#projectLink1Medium:hover, #projectLink1Medium:focus, #projectLink2Medium:hover, #projectLink2Medium:focus, #projectLink3Medium:hover, #projectLink3Medium:focus, #projectLink4Medium:hover, #projectLink4Medium:focus, #projectLink5Medium:hover, #projectLink5Medium:focus, #projectLink6Medium:hover, #projectLink6Medium:focus {
 	border: 4px solid #393F44;
 }
 
 /* Large sized */
-#projectLink1Large, #projectLink2Large, #projectLink3Large, #projectLink4Large, #projectLink5Large {
+#projectLink1Large, #projectLink2Large, #projectLink3Large, #projectLink4Large, #projectLink5Large, #projectLink6Large {
 	width: 585px;
 	height: 391px;
 	margin: 10px;
@@ -123,7 +129,7 @@
 	border-radius: 5px;
 }
 
-#projectLink1Large:hover, #projectLink1Large:focus, #projectLink2Large:hover, #projectLink2Large:focus, #projectLink3Large:hover, #projectLink3Large:focus, #projectLink4Large:hover, #projectLink4Large:focus, #projectLink5Large:hover, #projectLink5Large:focus {
+#projectLink1Large:hover, #projectLink1Large:focus, #projectLink2Large:hover, #projectLink2Large:focus, #projectLink3Large:hover, #projectLink3Large:focus, #projectLink4Large:hover, #projectLink4Large:focus, #projectLink5Large:hover, #projectLink5Large:focus, #projectLink6Large:hover, #projectLink6Large:focus {
 	border: 4px solid #393F44;
 }
 
@@ -134,19 +140,19 @@
 		max-width: 760px;
 	}
 
-	#projectLink1Small, #projectLink2Small, #projectLink3Small, #projectLink4Small, #projectLink5Small {
+	#projectLink1Small, #projectLink2Small, #projectLink3Small, #projectLink4Small, #projectLink5Small, #projectLink6Small {
 		width: 215px;
 		height: 144px;
 		background-size: 215px 144px;
 	}
 
-	#projectLink1Medium, #projectLink2Medium, #projectLink3Medium, #projectLink4Medium, #projectLink5Medium {
+	#projectLink1Medium, #projectLink2Medium, #projectLink3Medium, #projectLink4Medium, #projectLink5Medium, #projectLink6Medium {
 		width: 320px;
 		height: 214px;
 		background-size: 320px 214px;
 	}
 
-	#projectLink1Large, #projectLink2Large, #projectLink3Large, #projectLink4Large, #projectLink5Large {
+	#projectLink1Large, #projectLink2Large, #projectLink3Large, #projectLink4Large, #projectLink5Large, #projectLink6Large {
 		width: 700px;
 		height: 468px;
 		background-size: 700px 468px;
@@ -160,19 +166,19 @@
 		max-width: 760px;
 	}
 
-	#projectLink1Small, #projectLink2Small, #projectLink3Small, #projectLink4Small, #projectLink5Small {
+	#projectLink1Small, #projectLink2Small, #projectLink3Small, #projectLink4Small, #projectLink5Small, , #projectLink6Small {
 		width: 150px;
 		height: 100px;
 		background-size: 150px 100px;
 	}
 
-	#projectLink1Medium, #projectLink2Medium, #projectLink3Medium, #projectLink4Medium, #projectLink5Medium {
+	#projectLink1Medium, #projectLink2Medium, #projectLink3Medium, #projectLink4Medium, #projectLink5Medium, #projectLink6Medium {
 		width: 230px;
 		height: 154px;
 		background-size: 230px 154px;
 	}
 
-	#projectLink1Large, #projectLink2Large, #projectLink3Large, #projectLink4Large, #projectLink5Large {
+	#projectLink1Large, #projectLink2Large, #projectLink3Large, #projectLink4Large, #projectLink5Large, #projectLink6Large {
 		width: 500px;
 		height: 334px;
 		background-size: 500px 334px;
