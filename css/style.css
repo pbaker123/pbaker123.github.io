@@ -1,0 +1,65 @@
+html {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg.png) no-repeat right center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.icon {
+	max-width: 50% !important;
+  border-radius: 50% !important;
+  border:10px solid #9e9d24 !important;
+}
+
+.socials {
+  width: 40px;
+}
+
+.gitHubSmallLink, .linkedinSmallLink, .stackSmallLink {
+  height: 40px;
+  width: 40px;
+  background-size: 40px;
+  border-radius: 5px;
+  margin: 6px auto;
+}
+
+.gitHubSmallLink, .gitHubLink {
+  background-image: url('../images/github.png');
+}
+
+.linkedinSmallLink, .linkedinLink {
+  background-image: url('../images/linkedin.png');
+}
+
+.stackSmallLink, .stackLink {
+  background-image: url('../images/stackoverflow.png');
+}
+
+.gitHubSmallLink:hover, .gitHubSmallLink:active, .gitHubSmallLink:focus, .gitHubLink:hover, .gitHubLink:active, .gitHubLink:focus {
+  background-image: url('../images/github2.png');
+}
+
+
+.linkedinSmallLink:hover, .linkedinSmallLink:active, .linkedinSmallLink:focus, .linkedinLink:hover, .linkedinLink:active, .linkedinLink:focus {
+  background-image: url('../images/linkedin2.png');
+}
+
+.stackSmallLink:hover, .stackSmallLink:active, .stackSmallLink:focus, .stackLink:hover, .stackLink:active, .stackLink:focus {
+  background-image: url('../images/stackoverflow2.png');
+}
+
+@media only screen and (min-width: 990px) {
+  .carousel .carousel-item {
+    width: 500px !important;
+  }
+}

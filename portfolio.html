@@ -1,534 +1,167 @@
-<!-- Responsive Portfolio
-	small = up to 768
-	medium = up to 1024
-	large = over 1024 -->
+ <!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-wrapper lime darken-3">
+          
+          <!-- Top navigation elements for desktop -->
+          <div class="brand-logo hide-on-med-and-down">
+            <img src="images/pb.png" class="icon"/>
+          </div>
+          <div class="brand-logo center hide-on-med-and-down">
+            Paul Baker
+          </div>
 
-<!DOCTYPE html>
+          <!-- Top navigation for desktop -->
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="index.html">
+                About Me
+              </a>
+            </li>
+            <li class="active">
+              <a href="#">
+                Portfolio
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-trigger" data-target="dropdown-large">
+                Socials
+                <i class="material-icons right">
+                  arrow_drop_down
+                </i>
+              </a>
+            </li>
+          </ul>
 
-<html lang="en-us">
-	<head>
-		<meta charset="UTF-8">
-		<!-- viewport-fit=cover expands the view for iPhones -->
-		<meta 
-			content="width=device-width, initial-scale=1.0 viewport-fit=cover"
-			name="viewport"
-			>
-		<title>
-			View my projects
-		</title>
-		<link 
-			href="/apple-touch-icon.png"
-			rel="apple-touch-icon" 
-			sizes="180x180" 
-			>
-	    <link 
-	    	href="/favicon-32x32.png"
-	    	rel="icon" 
-	    	sizes="32x32" 
-	    	type="image/png" 
-	    	>
-	    <link 
-	    	href="/favicon-16x16.png"
-	    	rel="icon" 
-	    	sizes="16x16" 
-	    	type="image/png" 
-	   		>
-	    <link 
-	    	href="/site.webmanifest"
-	    	rel="manifest" 
-	    	>
-	    <link 
-	    	color="#4AAAA5"
-	    	href="/safari-pinned-tab.svg" 
-	    	rel="mask-icon" 
-	    	>
-	    <meta 
-	    	content="#4AAAA5"
-	    	name="msapplication-TileColor" 
-	    	>
-	    <meta 
-	    	content="#ffffff"
-	    	name="theme-color" 
-	    	>
-		<link 
-			href="assets/css/reset.css"
-			rel="stylesheet" 
-			type="text/css" 
-			>
-		<link 
-			href="assets/css/main.css"
-			rel="stylesheet" 
-			type="text/css" 
-			>
-		<link 
-			href="assets/css/color.css"
-			rel="stylesheet" 
-			type="text/css" 
-			>
-		<link 
-			href="assets/css/font.css"
-			rel="stylesheet" 
-			type="text/css" 
-			>
-		<link 
-			href="assets/css/portfolio.css"
-			rel="stylesheet" 
-			type="text/css" 
-			>
-		
-	</head>
-	<body>
-		
-		<header class="bg-snow border-bottom">
-			<!-- Navigation bar -->
-			<div class="header-grid-container">
-				<a 
-					class="header-item-name  bg-darkolivegreen text-snow rounded"
-					href="https://pbaker123.github.io"
-					tabindex="1" 
-					target="_blank"
-					>
-					<h1 class="extrapadding text-center">
-						Paul Baker
-					</h1>
-				</a>
-				
-				<div class="header-item-nav-1">
-					<div class="header-item-nav-flex">
-						<a 
-							class="link rounded"
-							href="index.html"
-							tabindex="2" 
-			  				>
-			  					<h5>
-									About
-								</h5>							
-							
-						</a>
-					</div>
-					
-				</div>
-				<div class="header-item-nav-2">
-					<div class="header-item-nav-flex">
-						<a 
-							class="link rounded currentpage"
-							href="portfolio.html"
-							tabindex="3" 
-			  				>
-			  					<h5>
-									Portfolio
-								</h5>							
-							
-						</a>
-					</div>
-					
-				</div>
-				<div class="header-item-nav-3">
-					<!-- Drop down connect with me box for small and medium screens -->
-					<div class="header-item-nav-flex">
-						<a 
-							class="text-maincolor splitlinkprimary"
-							href="contact.html"
-							tabindex="4" 
-			  				>
-			  				
-				  				<h5>
-									Contact
-								</h5>							
-						</a>
-						<button class="splitlinksecondary" tabindex="5">
-							<div class="dropdown">
-								<h5>
-			  						&#9660;
-			  					<h5>
-								<div class="dropdown-content">
-									<h4 class="text-maincolor content-border-bottom">
-										Connect with me
-									</h4>
-									<div class="socialSmallContainer">
-										<!-- First social media link -->
-										<a 
-											href="https://github.com/pbaker123"
-											tabindex="6"
-											target="_blank" 
-											>
-											<div class="gitHubSmallLink">
-											</div>
-										</a>
-								
-										<!-- Second social media link -->
-										<a
-											href="https://www.linkedin.com/in/paul-baker-03202b31/"
-											tabindex="7" 
-											target="_blank"
-											>
-											<div class="linkedinSmallLink">
-											</div>
-										</a>
-								
-										<!-- Third social media link -->
-										<a 
-											href="https://stackoverflow.com/users/9519126/paul-baker" 
-											tabindex="8"
-											target="_blank"
-											>
-											<div class="stackSmallLink">
-											</div>
-										</a>
-									</div>
-								</div>
-							</div>
-						</button>
-					</div>
-				</div>
-				<div class="header-item-nav-4">
-					<!-- Contact link without a drop down for large screens -->
-					<div class="header-item-nav-flex">
-						<a 
-							class="link rounded"
-							href="contact.html"
-			  				>
-			  					<h5>
-									Contact
-								</h5>							
-							
-						</a>
-					</div>
-				</div>
-			</div>
-		</header>
+          <!-- Social links dropdown for desktop -->
+          <ul id="dropdown-large" class="dropdown-content">
+            <li>
+              <a href="https://github.com/pbaker123" target="_blank">
+                <div class="gitHubSmallLink">
+                </div>
+              </a>
+            </li>
+            <li class="divider"></li>
+            <li>
+              <a href="https://www.linkedin.com/in/paul-baker-03202b31/" target="_blank">
+                <div class="linkedinSmallLink">
+                </div>
+              </a>
+            </li>
+            <li class="divider"></li>
+            <li>
+              <a href="https://stackoverflow.com/users/9519126/paul-baker" target="_blank">
+                <div class="stackSmallLink">
+                </div>
+              </a>
+            </li>
+          </ul>
 
-		<main>
-			<div class="main-grid-container">
-				<!-- Main content area -->
-				<div class="main-item-content">
-					<div class="main-item-flex">
-						<div class="content-title-grid">
-							<div class="title-grid">
-								<h2>
-									Portfolio
-								</h2>
-							</div>
-							<div class="button1-grid">
-								<div 
-									id="smallIconSize" 
-									onclick="
-										document.getElementById('projectsContainerSmall').style.display='flex';
-										document.getElementById('projectsContainerMedium').style.display='none';					
-										document.getElementById('projectsContainerLarge').style.display='none';
-										document.getElementById('smallIconSize').style.opacity='1';
-										document.getElementById('mediumIconSize').style.opacity='.2';
-										document.getElementById('largeIconSize').style.opacity='.2';
-										document.getElementById('smallIconSize').style.cursor='auto';
-										document.getElementById('mediumIconSize').style.cursor='pointer';
-										document.getElementById('largeIconSize').style.cursor='pointer'" 
-									style="opacity:.2"
-									tabindex="9"
-									title="Small"  
-									>
-								</div>
-							</div>
-							<div class="button2-grid">
-								<div 
-									id="mediumIconSize" 
-									onclick="
-										document.getElementById('projectsContainerSmall').style.display='none';
-										document.getElementById('projectsContainerMedium').style.display='flex';
-										document.getElementById('projectsContainerLarge').style.display='none';
-										document.getElementById('smallIconSize').style.opacity='.2';
-										document.getElementById('mediumIconSize').style.opacity='1';
-										document.getElementById('largeIconSize').style.opacity='.2';
-										document.getElementById('smallIconSize').style.cursor='pointer';
-										document.getElementById('mediumIconSize').style.cursor='auto';
-										document.getElementById('largeIconSize').style.cursor='pointer'"
-									style="cursor: auto" 
-									tabindex="10"
-									title="Medium" 
-									>
-								</div>
-							</div>
-							<div class="button3-grid">
-								<div 
-									id="largeIconSize" 
-									onclick="
-										document.getElementById('projectsContainerSmall').style.display='none';
-										document.getElementById('projectsContainerMedium').style.display='none';
-										document.getElementById('projectsContainerLarge').style.display='flex';
-										document.getElementById('smallIconSize').style.opacity='.2';
-										document.getElementById('mediumIconSize').style.opacity='.2';
-										document.getElementById('largeIconSize').style.opacity='1';
-										document.getElementById('smallIconSize').style.cursor='pointer';
-										document.getElementById('mediumIconSize').style.cursor='pointer';
-										document.getElementById('largeIconSize').style.cursor='auto'" 
-									style="opacity:.2" 
-									tabindex="11"
-									title="Large" 
-									>
-								</div>
-							</div>
-						</div>
-				
-					<div 
-						id="projectsContainerSmall" 
-						style="display:none"
-						>
-						<!-- Flex container for small project links -->
-						<a 
-							id="projectLink1Small" 
-							href="https://pbaker123.github.io/hangmanGame/" 
-							tabindex="4"
-							title="Project 1: Hangman" 
-							>
-							<div class="portfolioDivLabel">
-								Hangman Game
-							</div>
-						</a>
-						<a 
-							id="projectLink2Small" 
-							href="https://pbaker123.github.io/unit-4-game" 
-							tabindex="5"
-							title="Project 2: Star Wars RPG" 
-							>
-							<div class="portfolioDivLabel">
-								Star Wars RPG
-							</div>
-						</a>
-						<a 
-							id="projectLink3Small" 
-							href="https://pbaker123.github.io/trivia-game/" 
-							tabindex="6"
-							title="Project 3: Trivia Game" 
-							>
-							<div class="portfolioDivLabel">
-								Trivia Game
-							</div>
-						</a>
-						<a 
-							id="projectLink4Small" 
-							href="https://pbaker123.github.io/funny-gifs/" 
-							tabindex="7"
-							title="Project 4: Funny Gifs" 
-							>
-							<div class="portfolioDivLabel">
-								Funny Gifs
-							</div>
-						</a>
-						<a 
-							id="projectLink5Small" 
-							href="https://pbaker123.github.io/streetfighterkpb/" 
-							tabindex="8"
-							title="Project 5: Street Fight: Punch Kick Block" 
-							>
-							<div class="portfolioDivLabel">
-								Street Fight: PKB
-							</div>
-						</a>
-						<a 
-							id="projectLink6Small" 
-							href="//https://sastolarski.github.io/FindMyFood/" 
-							tabindex="8"
-							title="Group Project 1: Find My Food" 
-							>
-							<div class="portfolioDivLabel">
-								Find My Food
-							</div>
-						</a>
-					</div>
+          <!-- Top navigation elements for medium and below -->
+          <div class="brand-logo center hide-on-large-only">
+            <img src="images/pb.png" class="icon"/>
+          </div>
+          <div class="brand-logo right hide-on-large-only">
+            Paul Baker
+          </div>
+          <div data-target="mobile-demo" class="sidenav-trigger hide-on-large-only">
+            <i class="material-icons">
+              menu
+            </i>
+          </div>
+          
+          <!-- Side navigation for medium and below -->
+          <ul class="sidenav lime darken-2" id="mobile-demo">
+            <li>
+              <a href="sass.html">
+                About Me
+              </a>
+            </li>
+            <li>
+              <a href="badges.html">
+                Portfolio
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-trigger" data-target="dropdown-medium">
+                Socials
+                <i class="material-icons right">
+                  arrow_drop_down
+                </i>
+              </a>
+            </li>
+          </ul>
 
-					<div 
-						id="projectsContainerMedium" 
-						style="display:flex"
-						>
-						<!-- Flex container for medium project links -->
-						<a 
-							id="projectLink1Medium" 
-							href="https://pbaker123.github.io/hangmanGame/" 
-							tabindex="4"
-							title="Project 1: Hangman" 
-							>
-							<div class="portfolioDivLabel">
-								Hangman Game
-							</div>
-						</a>
-						<a 
-							id="projectLink2Medium" 
-							href="https://pbaker123.github.io/unit-4-game" 
-							tabindex="5"
-							title="Project 2: Star Wars RPG" 
-							>
-							<div class="portfolioDivLabel">
-								Star Wars RPG
-							</div>
-						</a>
-						<a 
-							id="projectLink3Medium" 
-							href="https://pbaker123.github.io/trivia-game/" 
-							tabindex="6"
-							title="Project 3: Trivia Game" 
-							>
-							<div class="portfolioDivLabel">
-								Trivia Game
-							</div>
-						</a>
-						<a 
-							id="projectLink4Medium" 
-							href="https://pbaker123.github.io/funny-gifs/" 
-							tabindex="7"
-							title="Project 4: Funny Gifs" 
-							>
-							<div class="portfolioDivLabel">
-								Funny Gifs
-							</div>
-						</a>
-						<a 
-							id="projectLink5Medium" 
-							href="https://pbaker123.github.io/streetfighterkpb/" 
-							tabindex="8"
-							title="Project 5: Street Fight: Punch Kick Block" 
-							>
-							<div class="portfolioDivLabel">
-								Street Fight: PKB
-							</div>
-						</a>
-						<a 
-							id="projectLink6Medium" 
-							href="//https://sastolarski.github.io/FindMyFood/" 
-							tabindex="8"
-							title="Group Project 1: Find My Food" 
-							>
-							<div class="portfolioDivLabel">
-								Find My Food
-							</div>
-						</a>
-					</div>
-
-					
-					<div 
-						id="projectsContainerLarge" 
-						style="display:none"
-						>
-						<!-- Flex container for large project links -->
-						<a 
-							id="projectLink1Large" 
-							href="https://pbaker123.github.io/hangmanGame/" 
-							tabindex="4"
-							title="Project 1: Hangman" 
-							>
-							<div class="portfolioDivLabel">
-								Hangman Game
-							</div>
-						</a>
-						<a 
-							id="projectLink2Large" 
-							href="https://pbaker123.github.io/unit-4-game" 
-							tabindex="4"
-							title="Project 2: Star Wars RPG" 
-							>
-							<div class="portfolioDivLabel">
-								Star Wars RPG
-							</div>
-						</a>
-						<a 
-							id="projectLink3Large" 
-							href="https://pbaker123.github.io/trivia-game/" 
-							tabindex="6"
-							title="Project 3: Trivia Game" 
-							>
-							<div class="portfolioDivLabel">
-								Trivia Game
-							</div>
-						</a>
-						<a 
-							id="projectLink4Large" 
-							href="https://pbaker123.github.io/funny-gifs/" 
-							tabindex="7"
-							title="Project 4: Funny Gifs" 
-							>
-							<div class="portfolioDivLabel">
-								Funny Gifs
-							</div>
-						</a>
-						<a 
-							id="projectLink5Large" 
-							href="https://pbaker123.github.io/streetfighterkpb/" 
-							tabindex="8"
-							title="Project 5: Street Fight: Punch Kick Block" 
-							>
-							<div class="portfolioDivLabel">
-								Street Fight: PKB
-							</div>
-						</a>
-						<a 
-							id="projectLink6Large" 
-							href="//https://sastolarski.github.io/FindMyFood/" 
-							tabindex="8"
-							title="Group Project 1: Find My Food" 
-							>
-							<div class="portfolioDivLabel">
-								Find My Food
-							</div>
-						</a>
-					</div>
-					
-
-
-					</div>
-				</div>
-				<div class="main-item-connect">
-					<!-- Connect with me area for large screens -->
-					<h3 class="content-border-bottom">
-						Connect with me
-					</h3>
-						<div class="element-center">
-					<!-- First social media link -->
-					<a 
-						href="https://github.com/pbaker123" 
-						target="_blank"
-						>
-						<div class="gitHubLink">
-						</div>
-					</a>
-			
-					<!-- Second social media link -->
-					<a
-						href="https://www.linkedin.com/in/paul-baker-03202b31/"
-						target="_blank" 
-						>
-						<div class="linkedinLink">
-						</div>
-					</a>
-			
-					<!-- Third social media link -->
-					<a 
-						href="https://stackoverflow.com/users/9519126/paul-baker" 
-						target="_blank"
-						>
-							<div class="stackLink">
-							</div>
-					</a>
-				</div>
-				</div>
-			</div>
-		</main>
-
-		<footer>
-	  		<div class="container">
-	    		<div class="row">
-	    			<div class="col-sm-12">
-	    				<div class="text-center">
-	    					<img src="assets/images/pbd-sm.png">
-	    				</div>
-	    			</div>
-	    			<div class="col-sm-12">
-	    				<div class="text-center text-snow">
-	    					<small>
-	    						Copyright &copy; 2018
-	    					</small>
-	    				</div>
-	    			</div>
-	    		</div>
-	  		</div>
-		</footer>
-		
-	</body>
+          <!-- Social links dropdown for medium -->
+          <ul id="dropdown-medium" class="dropdown-content">
+            <li>
+              <a href="https://github.com/pbaker123" target="_blank">
+                <div class="gitHubSmallLink">
+                </div>
+              </a>
+            </li>
+            <li class="divider"></li>
+            <li>
+              <a href="https://www.linkedin.com/in/paul-baker-03202b31/" target="_blank">
+                <div class="linkedinSmallLink">
+                </div>
+              </a>
+            </li>
+            <li class="divider"></li>
+            <li>
+              <a href="https://stackoverflow.com/users/9519126/paul-baker" target="_blank">
+                <div class="stackSmallLink">
+                </div>
+              </a>
+            </li>
+          </ul>         
+        </div>
+      </nav>
+    </header>
+    <main class="valign-wrapper">
+      <div class="carousel">
+        <a class="carousel-item" href="https://still-cove-85665.herokuapp.com/">
+          <img src="images/gp2.png">
+        </a>
+        <a class="carousel-item" href="https://sastolarski.github.io/FindMyFood/">
+          <img src="images/gp1.png">
+        </a>
+        <a class="carousel-item" href="https://pbaker123.github.io/hangmanGame/">
+          <img src="images/hw3.png">
+        </a>
+        <a class="carousel-item" href="https://pbaker123.github.io/unit-4-game">
+          <img src="images/hw4.png">
+        </a>
+        <a class="carousel-item" href="https://pbaker123.github.io/trivia-game/">
+          <img src="images/hw5.png">
+        </a>
+        <a class="carousel-item" href="https://pbaker123.github.io/funny-gifs/">
+          <img src="images/hw6.png">
+        </a>
+        <a class="carousel-item" href="https://pbaker123.github.io/streetfighterkpb/">
+          <img src="images/hw7.png">
+        </a>
+      </div> 
+    </main>
+    <footer class="page-footer lime darken-4">
+      <div class="footer-copyright lime darken-3">
+        <div class="container">
+          Copyright © 2018
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>

@@ -1,283 +1,220 @@
-<!-- Responsive Portfolio
-	small = up to 768
-	medium = up to 1024
-	large = over 1024 -->
+ <!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-wrapper lime darken-3">
+          
+          <!-- Top navigation elements for desktop -->
+          <div class="brand-logo hide-on-med-and-down">
+            <img src="images/pb.png" class="icon"/>
+          </div>
+          <div class="brand-logo center hide-on-med-and-down">
+            Paul Baker
+          </div>
 
-<!DOCTYPE html>
+          <!-- Top navigation for desktop -->
+          <ul class="right hide-on-med-and-down">
+            <li class="active">
+              <a href="#">
+                About Me
+              </a>
+            </li>
+            <li>
+              <a href="portfolio.html">
+                Portfolio
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-trigger" data-target="dropdown-large">
+                Socials
+                <i class="material-icons right">
+                  arrow_drop_down
+                </i>
+              </a>
+            </li>
+          </ul>
 
-<html lang="en-us">
-	<head>
-		<meta charset="UTF-8">
-		<!-- viewport-fit=cover expands the view for iPhones -->
-		<meta 
-			content="width=device-width, initial-scale=1.0 viewport-fit=cover"
-			name="viewport"
-			>
-		<title>
-			Learn About Me
-		</title>
-		<link 
-			href="/apple-touch-icon.png"
-			rel="apple-touch-icon" 
-			sizes="180x180" 
-			>
-	    <link 
-	    	href="/favicon-32x32.png"
-	    	rel="icon" 
-	    	sizes="32x32" 
-	    	type="image/png" 
-	    	>
-	    <link 
-	    	href="/favicon-16x16.png"
-	    	rel="icon" 
-	    	sizes="16x16" 
-	    	type="image/png" 
-	   		>
-	    <link 
-	    	href="/site.webmanifest"
-	    	rel="manifest" 
-	    	>
-	    <link 
-	    	color="#4AAAA5"
-	    	href="/safari-pinned-tab.svg" 
-	    	rel="mask-icon" 
-	    	>
-	    <meta 
-	    	content="#4AAAA5"
-	    	name="msapplication-TileColor" 
-	    	>
-	    <meta 
-	    	content="#ffffff"
-	    	name="theme-color" 
-	    	>
-		<link 
-			href="assets/css/reset.css"
-			rel="stylesheet" 
-			type="text/css" 
-			>
-		<link 
-			href="assets/css/main.css"
-			rel="stylesheet" 
-			type="text/css" 
-			>
-		<link 
-			href="assets/css/color.css"
-			rel="stylesheet" 
-			type="text/css" 
-			>
-		<link 
-			href="assets/css/font.css"
-			rel="stylesheet" 
-			type="text/css" 
-			>
-		
-	</head>
-	<body>
-		
-		<header class="bg-snow border-bottom">
-			<!-- Navigation bar -->
-			<div class="header-grid-container">
-				<a 
-					class="header-item-name  bg-darkolivegreen text-snow rounded"
-					href="https://pbaker123.github.io"
-					tabindex="1" 
-					target="_blank"
-					>
-					<h1 class="extrapadding text-center">
-						Paul Baker
-					</h1>
-				</a>
-				
-				<div class="header-item-nav-1">
-					<div class="header-item-nav-flex">
-						<a 
-							class="link rounded currentpage"
-							href="index.html"
-							tabindex="2" 
-			  				>
-			  					<h5>
-									About
-								</h5>							
-							
-						</a>
-					</div>
-					
-				</div>
-				<div class="header-item-nav-2">
-					<div class="header-item-nav-flex">
-						<a 
-							class="link rounded"
-							href="portfolio.html"
-							tabindex="3" 
-			  				>
-			  					<h5>
-									Portfolio
-								</h5>							
-							
-						</a>
-					</div>
-					
-				</div>
-				<div class="header-item-nav-3">
-					<!-- Drop down connect with me box for small and medium screens -->
-					<div class="header-item-nav-flex">
-						<a 
-							class="text-maincolor splitlinkprimary"
-							href="contact.html"
-							tabindex="4" 
-			  				>
-			  				
-				  				<h5>
-									Contact
-								</h5>							
-						</a>
-						<button class="splitlinksecondary" tabindex="5">
-							<div class="dropdown">
-								<h5>
-			  						&#9660;
-			  					<h5>
-								<div class="dropdown-content">
-									<h4 class="text-maincolor content-border-bottom">
-										Connect with me
-									</h4>
-									<div class="socialSmallContainer">
-										<!-- First social media link -->
-										<a 
-											href="https://github.com/pbaker123"
-											tabindex="6"
-											target="_blank" 
-											>
-											<div class="gitHubSmallLink">
-											</div>
-										</a>
-								
-										<!-- Second social media link -->
-										<a
-											href="https://www.linkedin.com/in/paul-baker-03202b31/"
-											tabindex="7" 
-											target="_blank"
-											>
-											<div class="linkedinSmallLink">
-											</div>
-										</a>
-								
-										<!-- Third social media link -->
-										<a 
-											href="https://stackoverflow.com/users/9519126/paul-baker" 
-											tabindex="8"
-											target="_blank"
-											>
-											<div class="stackSmallLink">
-											</div>
-										</a>
-									</div>
-								</div>
-							</div>
-						</button>
-					</div>
-				</div>
-				<div class="header-item-nav-4">
-					<!-- Contact link without a drop down for large screens -->
-					<div class="header-item-nav-flex">
-						<a 
-							class="link rounded"
-							href="contact.html"
-			  				>
-			  					<h5>
-									Contact
-								</h5>							
-							
-						</a>
-					</div>
-				</div>
-			</div>
-		</header>
+          <!-- Social links dropdown for desktop -->
+          <ul id="dropdown-large" class="dropdown-content">
+            <li>
+              <a href="https://github.com/pbaker123" target="_blank">
+                <div class="gitHubSmallLink">
+                </div>
+              </a>
+            </li>
+            <li class="divider"></li>
+            <li>
+              <a href="https://www.linkedin.com/in/paul-baker-03202b31/" target="_blank">
+                <div class="linkedinSmallLink">
+                </div>
+              </a>
+            </li>
+            <li class="divider"></li>
+            <li>
+              <a href="https://stackoverflow.com/users/9519126/paul-baker" target="_blank">
+                <div class="stackSmallLink">
+                </div>
+              </a>
+            </li>
+          </ul>
 
-		<main>
-			<div class="main-grid-container">
-				<!-- Main content area -->
-				<div class="main-item-content">
-					<div class="main-item-flex">
-						<div class="content-title-grid">
-							<div class="title-grid">
-								<h2>
-									About me
-								</h2>
-							</div>
-						</div>
-						<img 
-							id="paulBaker"
-							src="assets/images/paulBaker.png" 
-							>
-						<h5 class="mt">
-							A little about myself . . .
-						</h5>	
-						<p>
-							I began my career as a manager at a quick serve restaurant chain called Zaxby’s.  This allowed me to pay my way through college, and I graduated with a Bachelor’s degree in Managerial Sciences.  At that time, the job market was fairly soft, so I was fortunate to have a friend that needed an additional temporary worker at Toshiba.  I’ve now been with Toshiba for nine years, and the company has morphed and merged several times, which led me to picking up new skills and learning to navigate whatever situation is thrown at me.  Currently, I am working on Education for the self-checkout line of products.  <!-- I'm now looking for a new company that really challenges me in full-stack web development. -->
-						</p>
-						<p>
-							I recently relocated to Austin from Atlanta in August 2017 with my wife who I am happily married to.  We had been looking for a change when my sister-in-law moved to Austin.  We visited and decided that we were going to go for it and have never looked back!  We are loving every moment and our motto is "Live Your Best Life!"  We do not have any children, but we do have a 15 year old Miniature American Eskimo Dog-ter, Minnie. 
-						</p>
-						<p>
-							My brother-in-law and I recently purchased a 1984 S2 6.9 sailboat that I love to fix up on the weekends.  We are currently retrofitting her for a more modern look and can't wait until we can sail on Lake Travis!  I have also picked up pilates, yoga, and hiking with my friends and family and love to be outside whenever I can.  One of my life long passions is soccer, and I have played since I was 8 years old.  I love to watch games and play when I can. 
-						</p>
-					</div>
-				</div>
-				<div class="main-item-connect">
-					<!-- Connect with me area for large screens -->
-					<h3 class="content-border-bottom">
-						Connect with me
-					</h3>
-						<div class="element-center">
-					<!-- First social media link -->
-					<a 
-						href="https://github.com/pbaker123" 
-						target="_blank"
-						>
-						<div class="gitHubLink">
-						</div>
-					</a>
-			
-					<!-- Second social media link -->
-					<a
-						href="https://www.linkedin.com/in/paul-baker-03202b31/"
-						target="_blank" 
-						>
-						<div class="linkedinLink">
-						</div>
-					</a>
-			
-					<!-- Third social media link -->
-					<a 
-						href="https://stackoverflow.com/users/9519126/paul-baker" 
-						target="_blank"
-						>
-							<div class="stackLink">
-							</div>
-					</a>
-				</div>
-				</div>
-			</div>
-		</main>
+          <!-- Top navigation elements for medium and below -->
+          <div class="brand-logo center hide-on-large-only">
+            <img src="images/pb.png" class="icon"/>
+          </div>
+          <div class="brand-logo right hide-on-large-only">
+            Paul Baker
+          </div>
+          <div data-target="mobile-demo" class="sidenav-trigger hide-on-large-only">
+            <i class="material-icons">
+              menu
+            </i>
+          </div>
+          
+          <!-- Side navigation for medium and below -->
+          <ul class="sidenav lime darken-2" id="mobile-demo">
+            <li>
+              <a href="sass.html">
+                About Me
+              </a>
+            </li>
+            <li>
+              <a href="badges.html">
+                Portfolio
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-trigger" data-target="dropdown-medium">
+                Socials
+                <i class="material-icons right">
+                  arrow_drop_down
+                </i>
+              </a>
+            </li>
+          </ul>
 
-		<footer>
-	  		<div class="container">
-	    		<div class="row">
-	    			<div class="col-sm-12">
-	    				<div class="text-center">
-	    					<img src="assets/images/pbd-sm.png">
-	    				</div>
-	    			</div>
-	    			<div class="col-sm-12">
-	    				<div class="text-center text-snow">
-	    					<small>
-	    						Copyright &copy; 2018
-	    					</small>
-	    				</div>
-	    			</div>
-	    		</div>
-	  		</div>
-		</footer>
-		
-	</body>
+          <!-- Social links dropdown for medium -->
+          <ul id="dropdown-medium" class="dropdown-content">
+            <li>
+              <a href="https://github.com/pbaker123" target="_blank">
+                <div class="gitHubSmallLink">
+                </div>
+              </a>
+            </li>
+            <li class="divider"></li>
+            <li>
+              <a href="https://www.linkedin.com/in/paul-baker-03202b31/" target="_blank">
+                <div class="linkedinSmallLink">
+                </div>
+              </a>
+            </li>
+            <li class="divider"></li>
+            <li>
+              <a href="https://stackoverflow.com/users/9519126/paul-baker" target="_blank">
+                <div class="stackSmallLink">
+                </div>
+              </a>
+            </li>
+          </ul>         
+        </div>
+      </nav>
+    </header>
+    <main class="valign-wrapper">
+      
+      <!-- Main content for desktop -->
+      <div class="white hide-on-med-and-down" style="width:100vw !important">
+        <div class="container">
+          <div class="row">            
+            <div class="col s4">
+              <h5 class="promo-caption center">
+                Career
+              </h5>
+              <p class="light center">
+                As an enthusiastic technology professional with 10 years of IT experience in pre-sales support and education, I am looking for a new career in web development.  Although my degree is in management, I am passionate about technology.  Having recently completed a Full-Stack Development Bootcamp, I will transition careers and continue to develop my skills.
+              </p>
+            </div>
+            <div class="col s4">
+              <h5 class="promo-caption center">
+                Strengths
+              </h5>
+              <p class="light center">
+                My technological strengths are debugging, developing user-friendly features, a strong commitment to alleviating pain points and learning new tools quickly.  I enjoy exploring new approaches to tackle problems and assisting others in gaining understanding and perspective.  I am calm under pressure, a quick learner, a go-getter, and a team player. 
+              </p>
+            </div>
+            <div class="col s4">
+              <h5 class="promo-caption center">
+                Technologies
+              </h5>
+              <p class="light center">
+                JavaScript, HTML5, CSS, jQuery, Responsive Design, Bootstrap, React.js, Node.js, MongoDB, PHP frameworks like Laravel, MySQL, Heroku, Security and Session Storage and User Authentication, SFDC, APEX, Visual Force
+
+                Proficient with Microsoft Office products, Github development model
+
+                Experienced with Agile Development and working in development teams
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Main content for medium and smaller -->
+      <div class="container">
+        <ul class="collapsible hide-on-large-only">
+          <li>
+            <div class="collapsible-header">
+              Career
+            </div>
+            <div class="collapsible-body white">
+              <span>
+                As an enthusiastic technology professional with 10 years of IT experience in pre-sales support and education, I am looking for a new career in web development.  Although my degree is in management, I am passionate about technology.  Having recently completed a Full-Stack Development Bootcamp, I will transition careers and continue to develop my skills.
+              </span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              Strengths
+            </div>
+            <div class="collapsible-body white">
+              <span>
+                My technological strengths are debugging, developing user-friendly features, a strong commitment to alleviating pain points and learning new tools quickly.  I enjoy exploring new approaches to tackle problems and assisting others in gaining understanding and perspective.  I am calm under pressure, a quick learner, a go-getter, and a team player. 
+              </span>
+            </div>
+          </li>
+          <li>
+            <div class="collapsible-header">
+              Technologies
+            </div>
+            <div class="collapsible-body white">
+              <span>
+                JavaScript, HTML5, CSS, jQuery, Responsive Design, Bootstrap, React.js, Node.js, MongoDB, PHP frameworks like Laravel, MySQL, Heroku, Security and Session Storage and User Authentication, SFDC, APEX, Visual Force
+                <br><br>
+                Proficient with Microsoft Office products, Github development model
+                <br><br>
+                Experienced with Agile Development and working in development teams
+              </span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer class="page-footer lime darken-4">
+      <div class="footer-copyright lime darken-3">
+        <div class="container">
+          Copyright © 2018
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
